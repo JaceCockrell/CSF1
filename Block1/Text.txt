@@ -14,3 +14,8 @@ To send the changes to GitHub:
 In VS 2022, we can do all of these steps at once
 
 Thia change was made in GitHub.
+
+
+We created a new branch. this change was made on that branch, but will not exist on out "main" until we merge it on git hub
+
+Typically, we will not make changes to the main branch

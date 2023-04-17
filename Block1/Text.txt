@@ -1,0 +1,14 @@
+﻿This is just a text file. We can put whatever we want here.
+
+You can save with CTRL + S, CTRL + Shift + S saves all
+
+New documents that havent been sent to GitHub (or the local repo) have a "+" sign on the Solution Expolorer
+
+To send the changes to GitHub:
+1. Stage the changes we like (git add)
+
+2. Commit those changes to the local repo (git mommit -m) This must include a commit message (small description of your changes)
+
+3. Push those changes to the Remote Repo (git push orgin/main)
+
+In VS 2022, we can do all of these steps at once

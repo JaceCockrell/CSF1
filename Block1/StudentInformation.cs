@@ -24,9 +24,9 @@ namespace Block1
             Console.WriteLine("Major:" + major);
             float gPa = 3.9f;
             Console.WriteLine("GPA:" + gPa);
-            short tuitionPaid = 500;
+            decimal tuitionPaid = 500;
             Console.WriteLine("Tuition Paid:" + tuitionPaid);
-            int tuitionOwed = 24500;
+            decimal tuitionOwed = 24500;
             Console.WriteLine("Tuition Owed:" + tuitionOwed);
             byte semHours = 2;
             Console.WriteLine("Credit Hours This Semester:" + semHours);

@@ -24,7 +24,7 @@ namespace Block1
             int small = -2_000_000_000;
             int big = 2_000_000_000;
             Console.WriteLine(IS + small + big);
-            string loving = "long";
+            string loving = "long:";
             long neg = -9000000000000000000;
             long pos = 9000000000000000000;
             Console.WriteLine(loving + neg + pos);

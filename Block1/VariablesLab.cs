@@ -59,7 +59,17 @@ namespace Block1
             Console.WriteLine(boy + bOne);
             Console.WriteLine(boy + bTwo);
 
+            long longMin2 = long.MinValue;
+            Console.WriteLine(longMin2);
+            //.MinValue & .MaxValue are properties that exist for "intrinsic" numeric datatypes.
 
+            //constants are like variables, but their value cannot change.
+            //when we create them, we MUST declare and initialize at the same time.
+            const int CURRENT_YEAR = 2023;
+            Console.WriteLine(CURRENT_YEAR);
+            //CURRENT_YEAR = 2024;//They cannot be reassigned
+            int year = CURRENT_YEAR;
+            //container = value;
 
 
         }

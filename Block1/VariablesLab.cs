@@ -23,11 +23,11 @@ namespace Block1
             string IS = "int:";
             int small = -2_000_000_000;
             int big = 2_000_000_000;
-            Console.WriteLine(IS + small + big);
+            Console.WriteLine(IS + small + " to " + big);
             string loving = "long:";
             long neg = -9000000000000000000;
             long pos = 9000000000000000000;
-            Console.WriteLine(loving + neg + pos);
+            Console.WriteLine(loving + neg + " to " + pos);
             string first = "float:";
             float fOne = 1.1f;
             float fTwo = 2.2f;

@@ -1,6 +1,6 @@
 ﻿namespace Block2Labs
 {
-    internal class Block2LabConvert
+    internal class Block2LabTempconvert
     {
         static void Main(string[] args)
         {

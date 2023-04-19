@@ -1,6 +1,4 @@
-﻿using System.Net.Security;
-
-namespace Block3
+﻿namespace Block3
 {
     internal class InputParseConvert
     {

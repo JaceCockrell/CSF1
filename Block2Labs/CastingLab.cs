@@ -24,7 +24,7 @@ namespace Block2Labs
 
             //2. cast the value of pond into puddle and display it
             puddle = (byte)pond;
-            Console.WriteLine(puddle + " Explicit");
+            Console.WriteLine(puddle + " Explicit with truncation");
 
             //3. cast the value of pond into ocean and display it
             ocean = pond;

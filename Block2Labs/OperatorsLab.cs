@@ -13,9 +13,9 @@ namespace Block2Labs
         {
             int sides = 75;
             int squarePerm = sides *= 4;
-            Console.WriteLine("1. Perimeter of the square. " + squarePerm + "inches");
+            Console.WriteLine("1. Perimeter of the square. " + squarePerm + " inches");
             int height = 45, depth = 20, length = 65;
-            Console.WriteLine("2. Volume of a cuboid " + (height * depth * length)+ "inches");
+            Console.WriteLine("2. Volume of a cuboid " + (height * depth * length)+ " inches");
             int people = 146, vans, peopleLeft;
             vans = people / 9;
             peopleLeft = people % 9;

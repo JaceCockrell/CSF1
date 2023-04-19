@@ -40,7 +40,7 @@
             Console.Write("What planet are you from?: ");
             string planet = Console.ReadLine();
             //Console.WriteLine(planet + " is great, " + name + "!");
-            //string interpolation!!
+            //string interpolation!! ** $ starts the interpolation **
             Console.WriteLine($"{planet} is a great planet, {name}!");//$ denotes string interpolation
 
             //readline method always returns a string we cant math with a string so we have to do some work to use that 

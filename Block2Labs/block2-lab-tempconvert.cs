@@ -12,7 +12,7 @@
             Console.WriteLine("The temperature in FahrenHeit is " + fah);
             fah = 75;
             Console.WriteLine("Fahrenheit to Celsius");
-            cel = fah * (5.0 / 9.0) - 32;
+            cel = (5.0 / 9.0) * (fah - 32);
             Console.WriteLine("The temperature in Fahrenheit is " + fah);
             Console.WriteLine("The temperature in Celsius is " + cel);
         }

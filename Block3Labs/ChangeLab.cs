@@ -16,16 +16,12 @@ namespace Block3Labs
             Console.WriteLine("How much money do you have?");
             decimal totalMoney = decimal.Parse(Console.ReadLine());
             int pennies = (int)(totalMoney * 100);
-            Console.WriteLine(pennies);
             int quarter = pennies / 25;
             pennies %= 25;
-            Console.WriteLine(pennies);
             int dime = pennies / 10;
             pennies %= 10;
-            Console.WriteLine(pennies);
             int nickle = pennies / 5;
             pennies %= 5;
-            Console.WriteLine(pennies);
             Console.WriteLine($"You have: {quarter} quarters {dime} dimes, {nickle} nickles, and {pennies} pennies.");
             
 

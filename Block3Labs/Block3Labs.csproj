@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Block3Labs.ChangeLab</StartupObject>
+    <StartupObject>Block3Labs.MadLibs</StartupObject>
   </PropertyGroup>
 
 </Project>

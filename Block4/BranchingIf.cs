@@ -123,15 +123,15 @@ namespace Block4
             {
                 Console.WriteLine(" Congradulations! You got an A! ");
             }
-            else if (grade < 89)
+            else if (grade >= 80)
             {
                 Console.WriteLine("You got a B!");
             }
-            else if (grade < 79)
+            else if (grade >= 70)
             {
                 Console.WriteLine("you got a C!");
             }
-            else if (grade < 69)
+            else if (grade >= 60)
             {
                 Console.WriteLine("You got a D!");
             }

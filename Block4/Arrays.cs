@@ -96,6 +96,32 @@
                      prices[0],
                      prices[^1]);
 
+            //collection initialization syntax is a shortcut to bot declare and initialize the array
+            //you must already know all of the values you want to put in the boxes first.
+            string saw = "saw";     //0         // 1           // 2      // 3      //4     length of 5
+            string[] toolbox = { "wrenches", "screwdrivers", "sockets", "hammers", saw };
+            toolbox[^1] = "Spanner";
+            bool[] boolpen = { true, false, true, false };
+
+            //strings are also collections of chars
+            Console.WriteLine(toolbox[0][1]);
+
+            //IndexOf() method returns the index of a specified char(s) in a string.
+            string strName = "James Bond";
+            int space = strName.IndexOf(" ");//5
+
+            //Substring() method                 st   sp 
+            string firstName = strName.Substring(0, space);//Range operater
+            string firstName2 = strName[..space];//st   skip
+            string lastName = strName.Substring(space + 1);
+            string lastName2 = strName[(space + 1)..];//Range operater
+
+            Console.WriteLine(firstName + "" + lastName);
+            Console.WriteLine(firstName2 + "" + lastName2);
+
+
+
+
 
         }//end main()
     }//end class

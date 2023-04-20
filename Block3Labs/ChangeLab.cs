@@ -12,18 +12,21 @@ namespace Block3Labs
         {
             Console.WriteLine("Coin Sorter");
             Console.WriteLine("");
-            //variable is equal to is remaining %=
+            //variable is equal to the remaining after division ** %= **
             Console.WriteLine("How much money do you have?");
-            double totalMoney = double.Parse(Console.ReadLine());
+            decimal totalMoney = decimal.Parse(Console.ReadLine());
             int pennies = (int)(totalMoney * 100);
+            Console.WriteLine(pennies);
             int quarter = pennies / 25;
             pennies %= 25;
+            Console.WriteLine(pennies);
             int dime = pennies / 10;
             pennies %= 10;
+            Console.WriteLine(pennies);
             int nickle = pennies / 5;
             pennies %= 5;
-            int penny = pennies / 1;
-            Console.WriteLine($"You have: {quarter} quarters {dime} dimes, {nickle} nickles, and {penny} pennies.");
+            Console.WriteLine(pennies);
+            Console.WriteLine($"You have: {quarter} quarters {dime} dimes, {nickle} nickles, and {pennies} pennies.");
             
 
         }//end main()

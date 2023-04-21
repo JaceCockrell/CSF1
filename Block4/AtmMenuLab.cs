@@ -10,7 +10,7 @@ namespace Block4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ATM Lab");
+            Console.WriteLine("ATM Lab\n\n");
             decimal strBal = 100;
             Console.WriteLine("ATM");
             Console.WriteLine("Enter pin number: ");
@@ -36,8 +36,17 @@ namespace Block4
                     Console.WriteLine($"You have {dep:c} deposited into your account.");
                     Console.WriteLine($"Your new balance is {strBal + dep:c}");
                     break;
+                case "withdraw":
+                    Console.WriteLine("How much do you want to withdraw?");
+                    decimal wit = decimal.Parse(Console.ReadLine());
+                    Console.WriteLine($"You have withdrawn {wit:c} from your account.");
+                    Console.WriteLine($"Your new balance is {strBal - wit}");
+                    break;
+                case "exit":
+                    Console.WriteLine("Goodbye!");
+                    break;
                 default: 
-                        Console.WriteLine("Program ended");
+                        Console.WriteLine("INPUT NOT FOUND\a - please try again..");
                     break;
             }
 

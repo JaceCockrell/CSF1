@@ -116,7 +116,9 @@ namespace Block4
                     Console.WriteLine("You must be a hacker\a");//plays a window error alert
                 }//inner if
             }//outter if
-            //MINI LAB            //Ask the user for the score on their last Klingon exam.            //Tell them the letter grade. 90+ A, 80-89 B, 70-79 C, 60-69 D, anything less is an F.
+            //MINI LAB
+            //Ask the user for the score on their last Klingon exam.
+            //Tell them the letter grade. 90+ A, 80-89 B, 70-79 C, 60-69 D, anything less is an F.
             Console.WriteLine("What score did you have on your last Kingon exam? ");
             int grade = int.Parse(Console.ReadLine());
             if (grade >= 90)

@@ -7,7 +7,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Block4
+namespace Block4Labs
 {
     internal class LoginLab
     {

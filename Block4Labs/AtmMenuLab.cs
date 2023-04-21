@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Block4
+namespace Block4Labs
 {
     internal class AtmMenuLab
     {
@@ -15,7 +15,7 @@ namespace Block4
             Console.WriteLine("ATM");
             Console.WriteLine("Enter pin number: ");
             int pin = int.Parse(Console.ReadLine());
-            if (pin == 1260) 
+            if (pin == 1260)
             {
                 Console.WriteLine("Welcome!");
             }
@@ -45,8 +45,8 @@ namespace Block4
                 case "exit":
                     Console.WriteLine("Goodbye!");
                     break;
-                default: 
-                        Console.WriteLine("INPUT NOT FOUND\a - please try again..");
+                default:
+                    Console.WriteLine("INPUT NOT FOUND\a - please try again..");
                     break;
             }
 

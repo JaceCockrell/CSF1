@@ -11,7 +11,7 @@ namespace Block4
         static void Main(string[] args)
         {
             Console.WriteLine("ATM Lab");
-            int strBal = 100;
+            decimal strBal = 100;
             Console.WriteLine("ATM");
             Console.WriteLine("Enter pin number: ");
             int pin = int.Parse(Console.ReadLine());
@@ -32,7 +32,7 @@ namespace Block4
                     break;
                 case "deposit":
                     Console.WriteLine("How much do you want to deposit?");
-                    int dep = int.Parse(Console.ReadLine());
+                    decimal dep = decimal.Parse(Console.ReadLine());
                     Console.WriteLine($"You have {dep:c} deposited into your account.");
                     Console.WriteLine($"Your new balance is {strBal + dep:c}");
                     break;

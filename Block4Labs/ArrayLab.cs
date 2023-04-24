@@ -26,7 +26,7 @@ namespace Block4Labs
             int allScores = scores.Sum();
             allScores = allScores / 5;
             Console.WriteLine($"Your average score was: {allScores}");
-
+            
 
 
 

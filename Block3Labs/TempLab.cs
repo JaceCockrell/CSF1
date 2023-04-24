@@ -22,6 +22,7 @@ namespace Block3Labs
             fah = double.Parse(Console.ReadLine());
             cel = (5.0 / 9.0) * (fah - 32);
             Console.WriteLine($"You have: {cel} degrees in Celsius");
+            
 
 
 

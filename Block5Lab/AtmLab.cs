@@ -58,7 +58,7 @@ namespace Block5Lab
                         Console.Write("\nEnter the amount you want to deposit: $");
                         double depositAmount = double.Parse(Console.ReadLine());
                         accountBalance += depositAmount;
-                        Console.WriteLine("$" + depositAmount + " has been deposited into account number " + enteredAccountNumber + ". Your new account balance is: $" + accountBalance);
+                        Console.WriteLine("$" + depositAmount + " has been deposited into account. " + " Your new account balance is: $" + accountBalance);
                         break;
 
                     case "withdraw":
@@ -67,7 +67,7 @@ namespace Block5Lab
                         if (withdrawAmount <= accountBalance)
                         {
                             accountBalance -= withdrawAmount;
-                            Console.WriteLine("$" + withdrawAmount + " has been withdrawn from account number " + enteredAccountNumber + ". Your new account balance is: $" + accountBalance);
+                            Console.WriteLine("$" + withdrawAmount + " has been withdrawn from your account. " + " Your new account balance is: $" + accountBalance);
                         }
                         else
                         {
